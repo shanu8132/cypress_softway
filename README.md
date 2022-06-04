@@ -6,6 +6,7 @@
 4) To install the node dependencies and Cypress, run command: npm install
 5) to run the test file(price_comparision.js) in headless mode, run command: npx cypress run
 6) to run the test file(price_comparision.js) in headed mode, run command: npx cypress open
+7) you can also check the test video, present in cypress/video folder
 
 <img width="333" alt="image" src="https://user-images.githubusercontent.com/11864554/172019209-cc483221-445a-42e8-b8b2-53610f1f7946.png">
 
