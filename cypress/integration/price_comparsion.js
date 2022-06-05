@@ -18,7 +18,7 @@ describe('Price Comparision Problem Statement', function(){
     it('Fetch Price from Amazon', function(){
         cy.visit('https://www.amazon.in/')
         cy.get('#twotabsearchtextbox').type('iPhone 13{ENTER}')
-        cy.get('.a-size-medium').eq(1).invoke('text').should('include','iPhone 13')
+        cy.get('.a-size-medium',{timeout:10000}).eq(1).invoke('text').should('include','iPhone 13')
         cy.get('.a-price-whole').eq(0).then(function(price){
             amazon_price = Number(price.text().replace(/[^0-9\.-]+/g,""));
             cy.log(amazon_price)      
@@ -38,13 +38,13 @@ describe('Price Comparision Problem Statement', function(){
              }
 
              else if(f_price > amazon_price){
-                 cy.log("Prices are lower on Amazon.in")
+                 cy.log("Prices are lower on Amazon.in by: "+(f_price-amazon_price))
                  expect(f_price).to.greaterThan(amazon_price)
              }
 
              else if(amazon_price > f_price){
-                 cy.log("Prices are lower on Flipkart.com")
-                 expect(amazon_price).to.lessThan(f_price)
+                 cy.log("Prices are lower on Flipkart.com by: "+(amazon_price-f_price))
+                 expect(amazon_price).to.greaterThan(f_price)
              }
         })       
         
