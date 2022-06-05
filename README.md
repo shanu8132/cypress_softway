@@ -15,12 +15,15 @@ Attaching Screenshot of the Test Logs from the Cypress Runner:
 
 1) Fetch Price from Flipkart
 
-<img width="335" alt="image" src="https://user-images.githubusercontent.com/11864554/172019240-db9d708a-faca-4937-b053-6e5d1f0b5954.png">
+<img width="954" alt="Screenshot_1" src="https://user-images.githubusercontent.com/11864554/172039390-e0328247-98ba-4a0f-9ae5-23a708762154.png">
+
 
 2) Fetch Price from Amazon
 
-<img width="337" alt="image" src="https://user-images.githubusercontent.com/11864554/172019258-f87d5932-27c2-4fbe-a9dd-90789ce433ba.png">
+<img width="959" alt="Screenshot_2" src="https://user-images.githubusercontent.com/11864554/172039398-ad1a85c8-97b4-4501-bf30-384bcbc60357.png">
+
 
 3) Comparing Prices
 
-<img width="335" alt="image" src="https://user-images.githubusercontent.com/11864554/172019279-d162e6fc-bec3-460b-bcd2-3968f7044dfe.png">
+<img width="959" alt="Screenshot_3" src="https://user-images.githubusercontent.com/11864554/172039406-edee55e9-9db5-41b0-a2bc-61cb553a7696.png">
+
